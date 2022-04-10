@@ -1,0 +1,168 @@
+/* display: reset */
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family:'IBM Plex Sans', sans-serif;
+   border-radius: 10px;
+}
+body{
+    background-color: #121214;
+}
+
+
+
+/* header */
+
+/*section ul:hover{
+    border: #fff 2px solid;
+}*/
+
+section .header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+section .header .kenzieflix-logo{
+    display: flex;
+    margin-top: 42px;
+    margin-bottom: 73px;
+}
+
+h1{ 
+    text-align: center;
+    font-size: 32px;
+    width: 100%;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+
+/* avatar */
+section div{
+    width: 700px;
+}
+
+section div ul{
+    display: flex;
+    justify-content: center;
+    gap: 26px; 
+}
+
+.perfis{
+    margin: auto;
+}
+
+section div ul .kenzieflix-perfil{
+    list-style: none;
+    height: 160px;
+    width: 160px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+section div ul .kenzieflix-perfil .kenzieflix-avatar-img{
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+section div ul .kenzieflix-perfil:hover .kenzieflix-avatar-img{
+    transform: scale(1.2);
+}
+
+section div ul .kenzieflix-perfil .kenzieflix-avatar-name{
+    color: #9C9C9C;
+    font-size: 14px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 14.5%;
+    position: absolute;
+}
+
+
+/* newperfil */
+section div ul .kenzieflix-perfil .newperfil{
+    background-color: #1E1E20;
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    cursor: pointer;
+}
+
+/* newperfil-detail */
+section div ul .kenzieflix-perfil .newperfil .logo-newperfil{
+    background-color: #1E1E20;
+    width: 54px;
+    height: 54px;
+    border: 5px #6F6F70 solid;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section div ul .kenzieflix-perfil .newperfil .logo-newperfil .detailswidth-logo-newperfil{
+    background-color: #6F6F70;
+    height: 4px;
+    width: 22px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+section div ul .kenzieflix-perfil .newperfil .logo-newperfil .detailswidth-logo-newperfil .detailsheight-logo-newperfil{
+    background-color: #6F6F70;
+    height: 22px;
+    width: 4px;
+    border-radius: 5px;
+    position:absolute;
+}
+section div ul .kenzieflix-perfil .newperfil:hover{
+    border: #fff 2px solid;
+    transition: 0.6s;
+}
+section div ul .kenzieflix-perfil .newperfil:hover > .logo-newperfil{
+    border: #fff 5px solid;
+    transition: 0.6s;
+}
+section div ul .kenzieflix-perfil .newperfil:hover > .logo-newperfil .detailswidth-logo-newperfil{
+    background-color: #fff;
+    transition: 0.6s;
+}
+section div ul .kenzieflix-perfil .newperfil:hover > .logo-newperfil .detailswidth-logo-newperfil .detailsheight-logo-newperfil{
+    background-color: #fff;
+    transition: 0.6s;
+}
+
+
+/* button */
+section .kenzieflix-botton{
+    display: flex;
+    justify-content: center;
+    margin-top: 136px;   
+} 
+
+section .kenzieflix-botton .bottonflix{
+    color: #fff;
+    background-color: #121214;
+    border: 1.5px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 206px;
+    height: 50px;
+    font-size: 16px;
+    text-transform: capitalize;
+    transition: 0.6s; 
+    cursor: pointer;
+}
+
+section .kenzieflix-botton .bottonflix:hover{
+    background-color: #fff;
+    color: #121214;
+}
